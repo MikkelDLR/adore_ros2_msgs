@@ -11,19 +11,35 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+
+find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
+find_package(shape_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
   "msg/Path.msg"
+  "msg/PlanningRequest.msg"
+  "msg/PlanningResult.msg"
+  "msg/SetPoint.msg"
+  "msg/SetPointRequest.msg"
+  "msg/TerminalRequest.msg"
   "msg/PathPoint.msg"
+  "msg/TrafficClassification.msg"
+  "msg/TrafficParticipant.msg"
   "msg/TrafficParticipantData.msg"
+  "msg/TrafficParticipantDetection.msg"
+  "msg/TrafficParticipantSet.msg"
+  "msg/TrafficParticipantSetSimulation.msg"
+  "msg/TrafficParticipantSimulation.msg"
   "msg/View.msg"
-#   "msg/Sphere.msg"
-#   "srv/AddThreeInts.srv"
-  DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+
+  DEPENDENCIES
+  geometry_msgs
+  shape_msgs
+  nav_msgs
 )
 
 if(BUILD_TESTING)
