@@ -17,12 +17,14 @@ find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(shape_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
   "msg/Path.msg"
   "msg/PlanningRequest.msg"
   "msg/PlanningResult.msg"
+  "msg/SchedulerNotification.msg"
   "msg/SetPoint.msg"
   "msg/SetPointRequest.msg"
   "msg/TerminalRequest.msg"
@@ -40,6 +42,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   geometry_msgs
   shape_msgs
   nav_msgs
+  builtin_interfaces
 )
 
 if(BUILD_TESTING)
