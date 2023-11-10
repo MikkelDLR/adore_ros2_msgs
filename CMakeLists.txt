@@ -20,6 +20,7 @@ find_package(nav_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/GraphValue.msg"
   "msg/Num.msg"
   "msg/Path.msg"
   "msg/PlanningRequest.msg"
