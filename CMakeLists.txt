@@ -19,14 +19,19 @@ find_package(shape_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Border.msg"
+  "msg/BorderID.msg"
+  "msg/BorderInterval.msg"
+  "msg/BorderProgress.msg"
+  "msg/BorderTypeChangeProfile.msg"
   "msg/Num.msg"
   "msg/Path.msg"
+  "msg/PathPoint.msg"
   "msg/PlanningRequest.msg"
   "msg/PlanningResult.msg"
   "msg/SetPoint.msg"
   "msg/SetPointRequest.msg"
   "msg/TerminalRequest.msg"
-  "msg/PathPoint.msg"
   "msg/TrafficClassification.msg"
   "msg/TrafficParticipant.msg"
   "msg/TrafficParticipantData.msg"
