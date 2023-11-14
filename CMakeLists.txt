@@ -17,6 +17,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(shape_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Border.msg"
@@ -24,11 +25,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BorderInterval.msg"
   "msg/BorderProgress.msg"
   "msg/BorderTypeChangeProfile.msg"
+  "msg/GraphValue.msg"
   "msg/Num.msg"
   "msg/Path.msg"
   "msg/PathPoint.msg"
   "msg/PlanningRequest.msg"
   "msg/PlanningResult.msg"
+  "msg/SchedulerNotification.msg"
   "msg/SetPoint.msg"
   "msg/SetPointRequest.msg"
   "msg/TerminalRequest.msg"
@@ -45,6 +48,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   geometry_msgs
   shape_msgs
   nav_msgs
+  builtin_interfaces
 )
 
 if(BUILD_TESTING)
