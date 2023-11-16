@@ -21,6 +21,8 @@ find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GraphValue.msg"
+  "msg/CooperativeUser.msg"
+  "msg/CooperativePlanning.msg"
   "msg/Num.msg"
   "msg/Path.msg"
   "msg/PlanningRequest.msg"
