@@ -14,6 +14,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BorderProgress.msg"
   "msg/BorderTypeChangeProfile.msg"
   "msg/GraphValue.msg"
+  "msg/CooperativeUser.msg"
+  "msg/CooperativePlanning.msg"
   "msg/Num.msg"
   "msg/Path.msg"
   "msg/PathPoint.msg"
