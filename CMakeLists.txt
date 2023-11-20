@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PlanningResult.msg"
   "msg/SchedulerNotification.msg"
   "msg/SetPoint.msg"
+  "msg/SetPointTest.msg"
   "msg/SetPointRequest.msg"
   "msg/TerminalRequest.msg"
   "msg/TrafficClassification.msg"
