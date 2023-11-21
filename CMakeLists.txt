@@ -9,6 +9,8 @@ include(requirements.cmake)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Border.msg"
+  "msg/Check.msg"
+  "msg/VehicleModelInput.msg"
   "msg/BorderID.msg"
   "msg/BorderInterval.msg"
   "msg/BorderProgress.msg"
