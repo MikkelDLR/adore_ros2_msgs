@@ -15,4 +15,5 @@
 int64 id
 int64 type
 nav_msgs/Odometry object_state
-
+float64 last_time_detected # The time it was last seen by a sensor
+bool has_been_detected_atleast_once
