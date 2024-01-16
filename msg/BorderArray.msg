@@ -11,4 +11,4 @@
 # * Contributors: 
 # *  Mikkel Skov Maarssø
 # ********************************************************************************
-BorderM[] borders
+Border[] border_array
