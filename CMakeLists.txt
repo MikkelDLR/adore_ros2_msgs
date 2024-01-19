@@ -15,7 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Check.msg"
   "msg/Object.msg"
   "msg/ObjectList.msg"
-  "msg/SetPointSimulation.msg"
+  "msg/VehicleCommand.msg"
   "msg/VehicleModelInput.msg"
   "msg/BorderID.msg"
   "msg/BorderInterval.msg"
