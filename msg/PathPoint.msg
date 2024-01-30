@@ -13,6 +13,4 @@
 # ********************************************************************************
 float64 x           # x coordinate
 float64 y           # y coordinate
-float64 psi         # heading
-float64 k           # curvature
 float64 s           # progress
