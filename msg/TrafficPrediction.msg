@@ -12,4 +12,4 @@
 # *  Giovanni Lucente
 # ********************************************************************************
 std_msgs/Header header
-VehiclePrediction[] traffic_prediction
+VehiclePrediction[] traffic_prediction                          # predicted trajectories of the vehicle in the traffic scenario

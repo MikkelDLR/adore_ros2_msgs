@@ -13,4 +13,4 @@
 # ********************************************************************************
 std_msgs/Header header
 int64 id                                                # id of the vehicle
-SetPointRequest trajectory_prediction                   # predicted trajectory of the vehicle
+SetPointRequest trajectory_history                      # past trajectory of the vehicle in the last seconds

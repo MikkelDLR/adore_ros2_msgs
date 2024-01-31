@@ -9,8 +9,7 @@
 # * SPDX-License-Identifier: EPL-2.0 
 # *
 # * Contributors: 
-# *  Giovanni Lucente
+# *   Giovanni Lucente
 # ********************************************************************************
 std_msgs/Header header
-int64 id                                                # id of the vehicle
-SetPointRequest trajectory_prediction                   # predicted trajectory of the vehicle
+VehicleHistory[] traffic_history            # recorded history of the traffic situation in the last seconds
