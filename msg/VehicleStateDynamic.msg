@@ -1,0 +1,23 @@
+# *******************************************************************************
+# * Copyright (C) 2017-2020 German Aerospace Center (DLR). 
+# * Eclipse ADORe, Automated Driving Open Research https://eclipse.org/adore
+# *
+# * This program and the accompanying materials are made available under the 
+# * terms of the Eclipse Public License 2.0 which is available at
+# * http://www.eclipse.org/legal/epl-2.0.
+# *
+# * SPDX-License-Identifier: EPL-2.0 
+# *
+# * Contributors: 
+# *  Mikkel Skov Maarssø
+# ********************************************************************************
+
+float32 px # position x
+float32 py # position y
+float32 pz # position z
+float32 psi # car heading
+float32 vx # velocity x
+float32 vy # velocity y
+float32 omega # yaw rate (around z-axis)
+float32 ax # longitutional acceleration
+float32 delta # steering wheels angle
