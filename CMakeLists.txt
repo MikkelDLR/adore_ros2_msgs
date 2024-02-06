@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GraphValue.msg"
   "msg/CooperativeUser.msg"
   "msg/CooperativePlanning.msg"
+  "msg/IndicatorState.msg"
   "msg/Num.msg"
   "msg/Path.msg"
   "msg/PathPoint.msg"
