@@ -13,5 +13,5 @@
 # *  Sanath Himasekhar Konthala
 # ********************************************************************************
 
-float64 wheel_angle
+float64 steering_wheel_angle
 float64 acceleration
