@@ -8,7 +8,6 @@ endif()
 include(requirements.cmake)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/BorderM.msg"
   "msg/PointArray.msg"
   "msg/Border.msg"
   "msg/BorderArray.msg"
@@ -48,8 +47,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrafficHistory.msg"
   "msg/VehicleHistory.msg"
   "msg/GearState.msg"
-  "msg/VehicleStateDynamic.msg"
-  "msg/VehicleStateExtended.msg"
 
   DEPENDENCIES
   geometry_msgs
