@@ -13,4 +13,5 @@
 # ********************************************************************************
 float64 x           # x coordinate
 float64 y           # y coordinate
+float64 w           # lane width
 float64 s           # progress
