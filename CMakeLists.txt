@@ -9,6 +9,7 @@ include(requirements.cmake)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PointArray.msg"
+  "msg/TestArray.msg"
   "msg/Border.msg"
   "msg/BorderArray.msg"
   "msg/Check.msg"
