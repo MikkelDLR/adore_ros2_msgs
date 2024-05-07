@@ -11,4 +11,5 @@
 # * Contributors: 
 # *   Giovanni Lucente
 # ********************************************************************************
-PathPoint[] path # vector of possible points that can be reached by a vehicle
+LanePoint[] path # vector of possible points that can be reached by a vehicle
+float64 next_checkpoint # s value of next unreleased checkpoint

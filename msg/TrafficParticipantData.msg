@@ -20,6 +20,6 @@ float64 v_lat                                       # lateral speed of the i-th 
 float64 a_long                                      # longitudinal acceleration of the i-th vehicle */
 float64 beta                                        # slip angle */
 int64 tracking_id                                    # id */
-Path[] keep_lane_paths                              # paths of the i-th vehicle keeping the lane */
-Path[] left_lane_change_paths                       # paths of the i-th vehicle changing lane on the left */
-Path[] right_lane_change_paths                      # paths of the i-th vehicle changing lane on the right */
+Lane[] center_lanes                              # paths of the i-th vehicle keeping the lane */
+Lane[] left_lanes                       # paths of the i-th vehicle changing lane on the left */
+Lane[] right_lanes                      # paths of the i-th vehicle changing lane on the right */
