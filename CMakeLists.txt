@@ -10,6 +10,7 @@ include(requirements.cmake)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PointArray.msg"
   "msg/Border.msg"
+  "msg/SystemCondition.msg"
   "msg/BorderArray.msg"
   "msg/Check.msg"
   "msg/Object.msg"

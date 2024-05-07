@@ -1,0 +1,2 @@
+float32 average_planner_frequency
+float32 latest_planner_frequency
