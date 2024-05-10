@@ -13,3 +13,4 @@
 # ********************************************************************************
 LanePoint[] path # vector of possible points that can be reached by a vehicle
 float64 next_checkpoint # s value of next unreleased checkpoint
+bool next_checkpoint_valid # true if data in next_checkpoint is valid
