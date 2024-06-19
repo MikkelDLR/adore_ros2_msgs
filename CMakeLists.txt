@@ -50,6 +50,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VehicleHistory.msg"
   "msg/GearState.msg"
   "msg/WorldVisualizationOffset.msg"
+  "msg/TrafficSpeedPrediction.msg"
+  "msg/VehicleSpeedPrediction.msg"
 
   DEPENDENCIES
   geometry_msgs
