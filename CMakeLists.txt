@@ -8,8 +8,8 @@ endif()
 include(requirements.cmake)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "GoalPointArray.msg"
-  "GoalPoint.msg"
+  "msg/GoalPointArray.msg"
+  "msg/GoalPoint.msg"
   "msg/PointArray.msg"
   "msg/TestArray.msg"
   "msg/Border.msg"
