@@ -12,5 +12,6 @@
 # *   Giovanni Lucente
 # ********************************************************************************
 LanePoint[] path # vector of possible points that can be reached by a vehicle
+string position # left / center / right, relative position with respect to the vehicle
 float64 next_checkpoint # s value of next unreleased checkpoint
 bool next_checkpoint_valid # true if data in next_checkpoint is valid
