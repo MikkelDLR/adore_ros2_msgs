@@ -1,5 +1,5 @@
 # *******************************************************************************
-# * Copyright (C) 2017-2020 German Aerospace Center (DLR). 
+# * Copyright (C) 2017-2025 German Aerospace Center (DLR). 
 # * Eclipse ADORe, Automated Driving Open Research https://eclipse.org/adore
 # *
 # * This program and the accompanying materials are made available under the 
@@ -9,7 +9,10 @@
 # * SPDX-License-Identifier: EPL-2.0 
 # *
 # * Contributors: 
-# *   Mikkel Skov Maarssø
+# *   Marko Mizdrak
 # ********************************************************************************
-float64 x_position
-float64 y_position
+std_msgs/Header header
+int64[] lane_ids
+MapPoint[] center_points
+geometry_msgs/Point start
+geometry_msgs/Point goal

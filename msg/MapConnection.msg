@@ -1,5 +1,5 @@
 # *******************************************************************************
-# * Copyright (C) 2017-2020 German Aerospace Center (DLR). 
+# * Copyright (C) 2017-2025 German Aerospace Center (DLR). 
 # * Eclipse ADORe, Automated Driving Open Research https://eclipse.org/adore
 # *
 # * This program and the accompanying materials are made available under the 
@@ -9,9 +9,15 @@
 # * SPDX-License-Identifier: EPL-2.0 
 # *
 # * Contributors: 
-# *   Giovanni Lucente
+# *   Marko Mizdrak
 # ********************************************************************************
-LanePoint[] path # vector of possible points that can be reached by a vehicle
-string position # left / center / right, relative position with respect to the vehicle
-float64 next_checkpoint # s value of next unreleased checkpoint
-bool next_checkpoint_valid # true if data in next_checkpoint is valid
+uint64 from_id
+uint64 to_id
+uint8 connection_type
+float64 weight
+
+# connection types
+uint8 END_TO_START=0
+uint8 END_TO_END=1
+uint8 START_TO_START=2
+uint8 START_TO_END=3

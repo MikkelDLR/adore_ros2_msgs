@@ -1,5 +1,5 @@
 # *******************************************************************************
-# * Copyright (C) 2017-2020 German Aerospace Center (DLR). 
+# * Copyright (C) 2017-2025 German Aerospace Center (DLR). 
 # * Eclipse ADORe, Automated Driving Open Research https://eclipse.org/adore
 # *
 # * This program and the accompanying materials are made available under the 
@@ -9,8 +9,12 @@
 # * SPDX-License-Identifier: EPL-2.0 
 # *
 # * Contributors: 
-# *  Giovanni Lucente
+# *   Marko Mizdrak
 # ********************************************************************************
-std_msgs/Header header
-int64 id                                                # id of the vehicle
-SetPointRequest trajectory_history                      # past trajectory of the vehicle in the last seconds
+MapConnection[] connections
+MapRoad[] roads
+
+float64 x_min
+float64 y_min
+float64 x_max
+float64 y_max

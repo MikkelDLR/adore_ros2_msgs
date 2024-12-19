@@ -1,5 +1,5 @@
 # *******************************************************************************
-# * Copyright (C) 2017-2020 German Aerospace Center (DLR). 
+# * Copyright (C) 2017-2025 German Aerospace Center (DLR). 
 # * Eclipse ADORe, Automated Driving Open Research https://eclipse.org/adore
 # *
 # * This program and the accompanying materials are made available under the 
@@ -9,12 +9,8 @@
 # * SPDX-License-Identifier: EPL-2.0 
 # *
 # * Contributors: 
-# *  Mikkel Skov Maarssø
-# *  Sanath Himasekhar Konthala
+# *   Marko Mizdrak
 # ********************************************************************************
 
-float64[] breaks
-float64[] coef1
-float64[] coef2
-float64[] coef3
-float64[] coef4
+geometry_msgs/Point[] left_border
+geometry_msgs/Point[] right_border

@@ -1,2 +1,0 @@
-uint64 whell_angle
-uint64 acceleration

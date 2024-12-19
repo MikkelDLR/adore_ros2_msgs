@@ -1,5 +1,5 @@
 # *******************************************************************************
-# * Copyright (C) 2017-2020 German Aerospace Center (DLR). 
+# * Copyright (C) 2017-2025 German Aerospace Center (DLR). 
 # * Eclipse ADORe, Automated Driving Open Research https://eclipse.org/adore
 # *
 # * This program and the accompanying materials are made available under the 
@@ -9,11 +9,10 @@
 # * SPDX-License-Identifier: EPL-2.0 
 # *
 # * Contributors: 
-# *  Mikkel Skov Maarssø
+# *   Marko Mizdrak
+# *   Giovanni Lucente
 # ********************************************************************************
-
-int64 id
-int64 type
-nav_msgs/Odometry object_state
-float64 last_time_detected # The time it was last seen by a sensor
-bool has_been_detected_atleast_once
+std_msgs/Header header
+adore_ros2_msgs/VehicleStateDynamic[] states
+uint32 request_id 32
+string label

@@ -1,5 +1,5 @@
 # *******************************************************************************
-# * Copyright (C) 2017-2020 German Aerospace Center (DLR). 
+# * Copyright (C) 2017-2025 German Aerospace Center (DLR). 
 # * Eclipse ADORe, Automated Driving Open Research https://eclipse.org/adore
 # *
 # * This program and the accompanying materials are made available under the 
@@ -9,8 +9,10 @@
 # * SPDX-License-Identifier: EPL-2.0 
 # *
 # * Contributors: 
-# *  Daniel Heß
+# *   Marko Mizdrak
 # ********************************************************************************
-
-TrafficParticipant data
-int32 simulation_id
+float64 x
+float64 y
+float64 s
+float64 max_speed
+uint64 parent_id
