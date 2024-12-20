@@ -14,18 +14,31 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MapPoint.msg"
   "msg/MapLane.msg"
   "msg/MapRoad.msg"
-  "msg/GoalPoint.msg"
   "msg/Map.msg"
+
   "msg/Route.msg"
+  "msg/GoalPoint.msg"
+
   "msg/TrafficSignal.msg"
   "msg/TrafficSignals.msg"
+
   "msg/VehicleStateDynamic.msg"
-  "msg/SafetyCorridor.msg"
+  "msg/VehicleStateExtended.msg"
   "msg/IndicatorState.msg"
-  "msg/Trajectory.msg"
   "msg/VehicleCommand.msg"
   "msg/GearState.msg"
   "msg/VehicleInfo.msg"
+  "msg/StateMonitor.msg"
+
+  "msg/Trajectory.msg"
+  "msg/TrajectoryTranspose.msg"
+
+  "msg/SafetyCorridor.msg"
+  
+  "msg/TrafficParticipant.msg"
+  "msg/TrafficClassification.msg"
+  "msg/TrafficParticipantDetection.msg"
+  "msg/TrafficParticipantSet.msg"
 
   DEPENDENCIES
   geometry_msgs
