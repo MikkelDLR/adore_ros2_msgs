@@ -40,6 +40,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrafficParticipantDetection.msg"
   "msg/TrafficParticipantSet.msg"
 
+  "msg/TrafficPrediction.msg"
+  "msg/VehiclePrediction.msg"
+
   DEPENDENCIES
   geometry_msgs
   shape_msgs
