@@ -11,5 +11,6 @@
 # * Contributors: 
 # * Mikkel Skov Maarssø
 # ********************************************************************************
-
 float64 localization_error # standard deviation error
+float64 localization_frequency
+float64 traffic_participant_detection_frequency
