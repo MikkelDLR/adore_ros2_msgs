@@ -8,62 +8,30 @@ endif()
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "")
 include(requirements.cmake)
 
+# Collect all *.msg files from msg/ directory as RELATIVE paths
+file(GLOB RELATIVE_MSG_FILES
+  RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}"
+  CONFIGURE_DEPENDS
+  "msg/*.msg"
+)
+
+# Pass the relative .msg files to rosidl_generate_interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
-
-  "msg/MapConnection.msg"
-  "msg/MapPoint.msg"
-  "msg/MapLane.msg"
-  "msg/MapRoad.msg"
-  "msg/Map.msg"
-
-  "msg/Route.msg"
-  "msg/GoalPoint.msg"
-
-  "msg/TrafficSignal.msg"
-  "msg/TrafficSignals.msg"
-
-  "msg/VehicleStateDynamic.msg"
-  "msg/VehicleStateExtended.msg"
-  "msg/IndicatorState.msg"
-  "msg/VehicleCommand.msg"
-  "msg/GearState.msg"
-  "msg/VehicleInfo.msg"
-  "msg/StateMonitor.msg"
-
-  "msg/Trajectory.msg"
-  "msg/TrajectoryTranspose.msg"
-
-  "msg/SafetyCorridor.msg"
-  
-  "msg/TrafficParticipant.msg"
-  "msg/TrafficClassification.msg"
-  "msg/TrafficParticipantDetection.msg"
-  "msg/TrafficParticipantSet.msg"
-
-  "msg/TrafficPrediction.msg"
-  "msg/VehiclePrediction.msg"
-
+  ${RELATIVE_MSG_FILES}
   DEPENDENCIES
-  geometry_msgs
-  shape_msgs
-  nav_msgs
-  builtin_interfaces
+    geometry_msgs
+    shape_msgs
+    nav_msgs
+    builtin_interfaces
 )
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
+  # Skipping copyright
   set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
+  # Skipping cpplint
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
 
 ament_package()
-
-
-
-

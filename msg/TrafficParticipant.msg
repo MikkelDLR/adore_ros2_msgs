@@ -19,8 +19,8 @@ geometry_msgs/Point goal_point
 Route route
 TrafficClassification classification
 int32 tracking_id
-shape_msgs/SolidPrimitive shape
 
+PhysicalVehicleParameters physical_parameters
 
 float64 dimensions_variance # variance of dimensions of shape
 uint8 classification_certainty	# confidence of classification 0..100
