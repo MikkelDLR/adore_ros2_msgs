@@ -14,6 +14,8 @@
 
 std_msgs/Header header
 
-geometry_msgs/Point[] waypoints
+Point2d[] waypoints
+
+float64[] speed_limits # optional speed limits for the waypoints
 
 string label

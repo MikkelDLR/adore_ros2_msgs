@@ -11,6 +11,7 @@
 # * Contributors: 
 # *   Marko Mizdrak
 # ********************************************************************************
+std_msgs/Header header
 MapConnection[] connections
 MapRoad[] roads
 
