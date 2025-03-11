@@ -12,5 +12,5 @@
 # *   Marko Mizdrak
 # ********************************************************************************
 
-geometry_msgs/Point[] left_border
-geometry_msgs/Point[] right_border
+Point2d[] left_border
+Point2d[] right_border
