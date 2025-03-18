@@ -11,8 +11,7 @@
 # * Contributors: 
 # *   Marko Mizdrak
 # ********************************************************************************
-std_msgs/Header header
-RouteSection[] sections
-MapPoint[] center_points
-geometry_msgs/Point start
-geometry_msgs/Point goal
+int64 lane_id
+float64 route_s
+float64 start_s
+float64 end_s
