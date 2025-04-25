@@ -27,6 +27,8 @@ float64 rear_track_width
 float64 steering_ratio
 float64 steering_angle_max
 float64 steering_angle_min
+float64 acceleration_min
+float64 acceleration_max
 float64 cornering_stiffness
 float64 brake_balance_front
 float64 acceleration_balance_front
