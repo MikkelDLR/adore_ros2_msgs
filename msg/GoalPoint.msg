@@ -12,6 +12,7 @@
 # *   Mikkel Skov Maarssoe
 # *   Giovanni Lucente
 # ********************************************************************************
+std_msgs/Header header
 float64 x_position
 float64 y_position
 int32 id

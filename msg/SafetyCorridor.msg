@@ -11,6 +11,6 @@
 # * Contributors: 
 # *   Marko Mizdrak
 # ********************************************************************************
-
 Point2d[] left_border
 Point2d[] right_border
+

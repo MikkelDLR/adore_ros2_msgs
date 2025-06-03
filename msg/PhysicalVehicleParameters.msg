@@ -11,25 +11,27 @@
 # * Contributors: 
 # *   Marko Mizdrak
 # ********************************************************************************
-float64 cog_to_front_axle
-float64 rear_axle_to_cog
-float64 wheelbase
-float64 front_axle_to_front_border
-float64 rear_border_to_rear_axle
-float64 mass
-float64 friction_coefficient
-float64 cog_height
-float64 front_tire_stiffness
+float64 cog_to_front_axle # m
+float64 rear_axle_to_cog # m
+float64 wheelbase # m
+float64 front_axle_to_front_border # m
+float64 rear_border_to_rear_axle # m
+float64 mass # kg
+float64 friction_coefficient # N/(m/s)
+float64 cog_height # m
+float64 front_tire_stiffness 
 float64 rear_tire_stiffness
 float64 rotational_inertia_div_mass
-float64 front_track_width
-float64 rear_track_width
-float64 steering_ratio
-float64 steering_angle_max
-float64 steering_angle_min
-float64 cornering_stiffness
-float64 brake_balance_front
-float64 acceleration_balance_front
-float64 body_width
-float64 body_length
-float64 body_height
+float64 front_track_width # m
+float64 rear_track_width # m
+float64 steering_ratio 
+float64 steering_angle_max # rad
+float64 steering_angle_min # rad
+float64 acceleration_min # m/s^2
+float64 acceleration_max # m/s^2
+float64 cornering_stiffness # N/rad
+float64 brake_balance_front # %
+float64 acceleration_balance_front # %
+float64 body_width # m
+float64 body_length # m
+float64 body_height # m

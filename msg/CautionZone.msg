@@ -12,6 +12,6 @@
 # *   Marko Mizdrak
 # ********************************************************************************
 
-
+std_msgs/Header header
 string label
 Polygon2d polygon

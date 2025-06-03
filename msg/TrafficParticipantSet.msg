@@ -13,5 +13,6 @@
 # *  Marko Mizdrak
 # ********************************************************************************
 
+std_msgs/Header header
 TrafficParticipantDetection[] data
 Polygon2d validity_area
