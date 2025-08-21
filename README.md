@@ -58,3 +58,4 @@ VehicleInfo.msg
 | **Polygon2d** | 2D polygon geometry | points[] | geometry, polygon, boundary, area |
 | **Point2d** | 2D coordinate point | x, y | coordinates, position, point, location |
 | **PassengerRequest** | Request of passenger | type | passenger, command, request |
+

@@ -11,7 +11,6 @@
 # * Contributors: 
 # *   Marko Mizdrak
 # ********************************************************************************
-Point2d[] left_border
-Point2d[] right_border
 std_msgs/Header header
-
+geometry_msgs/Point[] left_border
+geometry_msgs/Point[] right_border
