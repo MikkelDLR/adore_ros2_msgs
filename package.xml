@@ -3,7 +3,7 @@
 <package format="3">
   <name>adore_ros2_msgs</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>adore_ros2_msgs contains the core ROS2 messages for the ADORe framework</description>
   <maintainer email="fascar@todo.todo">fascar</maintainer>
   <license>TODO: License declaration</license>
 

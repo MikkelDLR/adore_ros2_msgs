@@ -64,5 +64,6 @@ run: ##         Run the node
 
 .PHONY: clean
 clean: ##         Clean build artifacts
+	rm -rf .obj-x86_64-linux-gnu
 	rm -rf $(ROS2_WORKSPACE)/build/$(ROS2_PACKAGE) $(ROS2_WORKSPACE)/install/$(ROS2_PACKAGE)
 
