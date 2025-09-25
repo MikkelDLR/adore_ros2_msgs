@@ -15,6 +15,7 @@
 
 VehicleStateDynamic motion_state
 Trajectory predicted_trajectory
+Trajectory mrm_trajectory
 geometry_msgs/Point goal_point
 Route route
 TrafficClassification classification
