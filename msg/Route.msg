@@ -16,3 +16,4 @@ RouteSection[] sections
 MapPoint[] center_points
 geometry_msgs/Point start
 geometry_msgs/Point goal
+Map map
