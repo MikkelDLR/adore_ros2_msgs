@@ -13,6 +13,9 @@
 # * Mikkel Skov Maarssø
 # ********************************************************************************
 # VehicleInfo.msg
+float64 position_latitude
+float64 position_longitude
+int64 speed # km/h 
 int32   id
 uint64  v2x_station_id
 GearState gear_state
