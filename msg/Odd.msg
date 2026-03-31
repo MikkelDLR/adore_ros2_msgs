@@ -1,0 +1,2 @@
+bool matching
+string status

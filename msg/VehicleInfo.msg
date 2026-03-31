@@ -26,6 +26,7 @@ bool automatic_steering_on
 bool automatic_acceleration_on
 bool automatic_acceleration_active
 bool clearance
+float64 max_speed
 PhysicalVehicleParameters physical_parameters
 float64 localization_error # standard deviation error
 float64 localization_frequency
