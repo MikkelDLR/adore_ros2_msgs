@@ -1,1 +1,4 @@
 ros-${ROS_DISTRO}-tf2-msgs
+ros-${ROS_DISTRO}-geometry-msgs
+ros-${ROS_DISTRO}-nav-msgs
+ros-${ROS_DISTRO}-shape-msgs
