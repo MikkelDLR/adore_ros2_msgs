@@ -20,4 +20,5 @@ int32 state             # traffic light state as an enum
 int32 RED = 0
 int32 YELLOW = 1
 int32 GREEN = 2
-int32 UNKNOWN = 3
+int32 RED_YELLOW = 3
+int32 UNKNOWN = 4
