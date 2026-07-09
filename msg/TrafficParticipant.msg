@@ -14,10 +14,11 @@
 # ********************************************************************************
 
 VehicleStateDynamic motion_state
-Trajectory predicted_trajectory
-Trajectory mrm_trajectory
-geometry_msgs/Point goal_point
-Route route
+Trajectory[] predicted_trajectory
+Trajectory[] mrm_trajectory
+ManeuverAdvice[] maneuver_advice
+geometry_msgs/Point[] goal_point
+Route[] route
 TrafficClassification classification
 int32 tracking_id
 
